@@ -31,6 +31,7 @@ Bounding rectangle alows to find the ratio of width and height of bounding recta
 
 ![alt text](images/Unknown-3.png)
 ![alt text](images/Unknown-4.png)
+
 Contour didn't help detect the difference between the two images.
 
 ## Display Difference and Threshold in black and white
@@ -41,7 +42,7 @@ Contour didn't help detect the difference between the two images.
 We can see here that there IS a difference between the two images. If there was no difference thare wouln't be any black portion on the image generated.
 We can see from this image that the threshold between the two images is very high as the there is a very big white areas in the generated image.
 
-##summary
+## Summary
 
 The Structural similarity of images helped in finding the difference between the shapes of original and user uploaded images.
 Computing the threshold and contour alowed us to do shape analysis and shape recognition.
