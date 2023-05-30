@@ -14,7 +14,7 @@ to change tampered image format we just have to save the image with the right fo
 ## Display images
 
 ![alt text](images/Unknown.png)
-![alt text](images/Unknown2.png)
+![alt text](images/Unknown-2.png)
 
 ## Comparing the two cards
 ### Reading the images using OpenCV.
@@ -29,14 +29,14 @@ We can only find and reteive contours on binary images. The contours is used for
 
 Bounding rectangle alows to find the ratio of width and height of bounding rectangle of the object.After that we can draw bounding box where images are different.
 
-![alt text](images/Unknown3.png)
-![alt text](images/Unknown4.png)
+![alt text](images/Unknown-3.png)
+![alt text](images/Unknown-4.png)
 Contour didn't help detect the difference between the two images.
 
 ## Display Difference and Threshold in black and white
 
-![alt text](images/Unknown5.png)
-![alt text](images/Unknown6.png)
+![alt text](images/Unknown-5.png)
+![alt text](images/Unknown-6.png)
 
 We can see here that there IS a difference between the two images. If there was no difference thare wouln't be any black portion on the image generated.
 We can see from this image that the threshold between the two images is very high as the there is a very big white areas in the generated image.
